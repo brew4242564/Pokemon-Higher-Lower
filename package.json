@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  },
+  "name": "pokemon-higher-lower",
+  "version": "1.0.0",
+  "description": "Which pokemon has more HP, Atk or Sp.Atk? Do you know?",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brew4242564/Pokemon-Higher-Lower.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/brew4242564/Pokemon-Higher-Lower/issues"
+  },
+  "homepage": "https://github.com/brew4242564/Pokemon-Higher-Lower#readme"
+}
