@@ -1,4 +1,4 @@
-const container = document.querySelector(".container");
+const container = document.querySelector(".game-wrapper");
 const usedPokemons = [];
 const scoreBar = document.querySelector(".scoreBar");
 const body = document.querySelector("body");
@@ -251,6 +251,7 @@ function renderPokemon(pkm1, pkm2) {
   buttonContainer.appendChild(lower);
   buttonContainer.appendChild(draw);
 
+  
   second.appendChild(buttonContainer);
   second.appendChild(secondText);
   second.appendChild(secondImg);
@@ -266,7 +267,7 @@ function changeBg() {
   const firstCol = typeList[gameState.pkm1.type];
   const secondCol = typeList[gameState.pkm2.type];
 
-  body.className = `min-h-screen flex flex-col`;
+  body.className = `min-h-screen min-w-screen flex flex-col m-0`;
   body.style.background = `
     linear-gradient(
     to right,
